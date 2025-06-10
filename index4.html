@@ -10,13 +10,19 @@
         /*4 - Converter todos os nomes de jogadores para letras minúsculas
 Usando .map(), crie um novo array chamado jogadoresMinusculos.
         */
-     jogadores = ['PAPAICRIS','PESSI','NEY','VINI'];
-     
-     let jM = jogadores.map(function(n){
-        return n.toLowerCase();
-     });
-     console.log(jM)
+     let jogadores =[
+      {nome:"PAPAICRIS",gols:3},
+      {nome:"PESSI",gols:30},
+      {nome:"NEY",gols:14},
+      {nome:"VINI",gols:8}
+    ];
 
+    let maisgols = jogadores.filter(jogador => jogadores.gols > 10 );
+   
+    console.log(maisgols);
+     
+
+     
     </script>
 </body>
 </html>
