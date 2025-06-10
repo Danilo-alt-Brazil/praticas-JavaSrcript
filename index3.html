@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+</head>
+<body>
+    <script>
+        /*4 - Converter todos os nomes de jogadores para letras minúsculas
+Usando .map(), crie um novo array chamado jogadoresMinusculos.
+        */
+          jogadores = ['cris','pessi','ney','vini'];
+          let nomeinvert = jogadores.map(function(nome) {
+            return nome.split("").reverse().join("");
+          });
+          console.log(nomeinvert);
+    </script>
+</body>
+</html>
