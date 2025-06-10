@@ -1,0 +1,10 @@
+/******************************************************************************
+7 - Contar quantos jogadores têm a letra "r" no nome (sem case sensitive)
+Use .filter() e .includes() (convertendo para minúsculo) para encontrar todos os
+jogadores com "r" no nome.
+*******************************************************************************/
+const jogadores = ["Ronaldo", "Messi", "Neymar", "Kaká", "Rivaldo", "Zidane", "Pelé"];
+
+const ComR = jogadores.filter(nome => nome.toLowerCase().includes("r"));
+
+console.log(ComR.length); 
